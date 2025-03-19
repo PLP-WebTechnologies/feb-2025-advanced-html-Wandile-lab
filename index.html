@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Innovators Summit</title>
+</head>
+<body>
+    <header>
+    <h1>Top 5 Futuristic Tech Innovations</h1>
+
+    <p>Audio Attribution: INCOMPETECH </p>
+    <audio  controls autoplay loop> <!--Audio Controls-->
+        <source src="audio/Shiny Tech.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+    </audio>
+    </header>
+
+    <video width="600px" height="350px" controls autoplay loop>
+        <source src="video/welcomeVideo.mp4" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+
+    <section>
+    <!--List of different fields-->
+    <ol type="I">
+        <li>Artificial Intelligence</li>
+        <li>Quantum Computing</li>
+        <li>Space Travel</li>
+        <li>Nanotechnology</li>
+        <li>Humanoid robots</li>
+    </ol>
+    </section>
+
+
+<section>
+<!--Images for each field-->
+    <img src="images/AI-pic.jpg" alt="Machine using AI to give a lady a flower" width="350px" height="350px">Artificial Intelligence<br><br><br>
+    <img src="images/quantumPic.jpg" alt="A quantum Computer" width="350px" height="350px">Quantum Computing<br><br><br>
+    <img src="images/rocket.jpg" alt="A rocket launching into space" width="350px" height="350px">Space Travel<br><br><br>
+    <img src="images/nanotech.jpg" alt="A picture of nanotech matter" width="350pcx" height="350px">Nanotechnology<br><br><br>
+    <img src="humanoid.jpg" alt="A machines arm similar to that of a humans arm" width="350px" height="350px">Humanoid Robots
+</section><br><br>
+
+    <!--Contact details table-->
+    <section>
+    <table border="2">
+
+        <thead> 
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody>  
+            <tr>
+                <td>Dr.Ava Sinclair</td> 
+                <td>101 AI Blvd, San Francisco, USA</td>
+                <td>+971 50 432 9876</td>
+                <td>ava.sinclair@AI.com</td>
+              
+            </tr>
+
+            <tr>
+                <td>Ethan Nakamura</td>
+                <td>200 Cyber St, London, UK</td>
+                <td>+1 415 678 9001</td>
+                <td>ethan.nakamura@quantum.com</td>
+                
+            </tr>
+
+            <tr>
+                <td>Liam Patel</td>
+                <td>88 Mars Colony Dr, Dubai, UAE</td>
+                <td>+81 90 5557 3321</td>
+                <td>liam.patel@Mars.com</td>
+            </tr>
+
+            <tr>
+                <td>Sophia Mendos</td>
+                <td>55 Quantum Rd, Tokyo, Japan</td>
+                <td>+44 7789 654321</td>
+                <td>sophia.mendos@nano.com</td>
+            </tr>
+
+            <tr>
+                <td>Nova Robotics Inc.</td>
+                <td>500 Skyline Rd, Toronto, Canada</td>
+                <td>+1 647 555 8765</td>
+                <td>contact@novarobotics.com</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <section>
+    <!--Call to action-->
+        <h1>Future Innovators Summit 2025</h1>
+        <p>A global summit where tech enthusiasts, AI researchers, and innovators gather to discuss the future of technology.</p>
+        <p>Sign up to participate!</p>
+    </section>
+
+    <section><!--User must choose a date to attend the event-->
+        <label for="eventSelect">Choose an Event Date</label>
+        <select id="eventSelect" name="eventSelect" required>
+        <option value="29 March 2025">29 March 2025</option>
+        <option value="5 April 2025">5 April 2025</option>
+        <option value="12 April 2025">12 April 2025</option>
+        </select>
+    </section><br><br>
+
+    <section>
+    <fieldset><!--Personal details form--> 
+        <legend>Personal Information</legend>
+        <label for="fname">First Name</label>
+        <input type="text" id="fName" name="fname" placeholder="John" required> <br><br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Doe" required><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="JohnDoe@example.com" required><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" minlength="5" maxlength="24" required><br><br>
+
+        <label for="verifyPassword"> Verify Password</label>
+        <input type="password" id="verifyPassword" name="verifyPassword" minlength="5" maxlength="24" required><br><br>
+
+        <label for="date">Date of Birth</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="male">Male</label>
+        <input type="radio" id="maleGender" value="Male"><br>
+
+        <label for="female">Female</label>
+        <input type="radio" id="femaleGender" value="female"><br>
+
+        <label for="non-binary"> Non-binary</label>
+        <input type="radio" id="non-binary-Gender" value="non-binary"><br>
+
+        <label for="unknown">Prefer not to say</label>
+        <input type="radio" id="unknownGender" value="unknown"><br><br>
+
+        <button type="submit">submit</button>
+
+    </fieldset>
+    </section>
+    
+</body>
+</html>
